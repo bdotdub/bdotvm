@@ -1,3 +1,3 @@
 all:
 	mkdir -p build/
-	g++ main.cpp -o build/bdotvm
+	llvm-g++ main.cpp -o build/bdotvm
